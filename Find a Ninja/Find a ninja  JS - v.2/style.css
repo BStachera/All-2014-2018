@@ -1,0 +1,72 @@
+body{
+    background-color: #080808;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 450px;
+}
+div.playsite{
+    position: relative;
+    top: 12px;
+    width: 390px;
+    height: 550px;
+    border: solid 3px #252525;
+}
+img{
+    position: relative;
+    }
+span.play{
+    font-family: Verdana;
+    font-size: 15px;
+    color: #797979;
+    position: relative;
+    left: 30px;
+}
+span.points{
+    font-family: Verdana;
+    font-size: 15px;
+    color: #797979;
+    position: relative;
+    left: 100px;
+}
+button.buton{
+    position: relative;
+    left: 65px;
+    border: solid 3px #252525;
+    font-family: verdana;
+    font-size: 14px;
+    color: #797979;
+    background-color: #080808;
+
+}
+img.ninjaclass{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    opacity: 0.02;
+    left: 10px;
+    top: 20px;
+}
+img.ninjaclass:hover{
+    opacity: 1;
+}
+nav.pzmt{
+    width:390px;
+    top: 20px;
+    position: relative;
+}
+button.pzm{
+    left: 6px;
+    margin-right:12px;
+    height: 35px;
+    width: 115px;
+    position: relative;
+    border: solid 3px #252525;
+    font-family: verdana;
+    font-size: 14px;
+    color: #797979;
+    background-color: #080808;
+
+}
+span#posis{
+    position: relative;
+}
