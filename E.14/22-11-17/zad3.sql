@@ -1,0 +1,1 @@
+SELECT nazwisko, imie FROM pacjenci INNER JOIN wizyty ON wizyty.id_pacjenta = pacjenci.id WHERE data LIKE "2017-12-06 %";

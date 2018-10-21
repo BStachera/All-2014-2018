@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl" id="head">
+	<meta charset="UTF-8">
+	<title>2c</title>
+</head>
+<body>
+
+<p id="message-box"></p>
+
+<script src="js/2.helper.js"></script>
+
+<script>
+
+
+	/* Napisz kod, który przywita użytkownika na stronie w jego języku
+	 *  Obsługujemy polski, niemiecki i angielski.
+	 *  Jeżeli język jest inny niż powyższe przywitaj go po angielsku
+	 *
+	 *  Użyj instrukcji 'switch'
+	 *
+	 *  -- WAŻNE --
+	 *  -- Masz do dyspozycji funkcję showMsg(komunikat), która wypisuje komunikat na ekranie --
+	 *  -----------
+	 * */
+	 let langu =  document.getElementById('head').lang;
+	console.log(langu);
+	switch(langu){
+		case "pl": showMsg('POLSKKAKAAA')
+		break;
+		case "de": showMsg('DEUTCHEEEEE')
+		break;
+		default: showMsg('STRANGEEER');
+	}
+
+
+</script>
+</body>
+</html>

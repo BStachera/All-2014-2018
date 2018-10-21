@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Stacja Meteo</title>
+</head>
+<body>
+    <header>
+        <h1>STACJA METEO</h1>
+    </header>
+    <div id="rodzic">
+    <main>
+        <h2>Dokumentacja wyników zapytań w bazie Meteo</h2>
+        <table>
+            <tr>
+                <td><img src="kw1.png" alt="Kwerenda1"></td>
+                <td><img src="kw2.png" alt="Kwerenda2"></td>
+            </tr>
+            <tr>
+                <td><img src="kw3.png" alt="Kwerenda3"></td>
+                <td><img src="kw4.png" alt="Kwerenda4"></td>
+            </tr>
+        </table>
+    </main>
+    <aside>
+        <h2> Zmiana jednostek Temperatury</h2>
+        <form>
+            Temperatura w <sup>o</sup>C</sup><br><input type="text" id="value" placeholder="Stopnie"><br><br>
+            Zamień na:
+            <br> <input type="button" id="kelw" onclick="zamianakel()" value="kelwiny"> 
+                 <input type="button" id="faren" onclick="zamianafar()" value="Farenheit"><br><br>
+        </form>
+        <p id="zamienione"></p><br>
+        <h2> Do pobrania:</h2>
+        <ul>
+            <li><a href="../baza/kwerendy.txt">Kwerendy</a></li>
+            <li><a href="../baza/meteo.sql">Export Mysql</a></li>
+        </ul>
+        <script>
+            function zamianakel(){
+                let temp = Number(document.getElementById('value').value);
+                if(isNaN(temp)){
+                    document.getElementById('zamienione').innerHTML = "Wprowadź liczbe";
+                }else{
+                let kel = temp + 273.13;
+                document.getElementById('zamienione').innerHTML = kel+"<sup>o</sup>K";
+                }
+            }
+            function zamianafar(){
+                let temp = Number(document.getElementById('value').value);
+                if(isNaN(temp)){
+                    document.getElementById('zamienione').innerHTML = "Wprowadź liczbe";
+                }else{
+                let far = (temp* 1.8) + 32;
+                document.getElementById('zamienione').innerHTML = far+"<sup>o</sup>F";
+                }
+            }
+        </script>
+    </aside>
+</div>
+    <footer>
+        <p> PESEL AUTORA STRONY : 98XXXX04XX3</p>
+    </footer>
+</body>
+</html>

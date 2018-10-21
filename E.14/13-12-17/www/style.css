@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+a{
+    position: relative;
+    color: yellow;
+}
+header, aside, footer{
+    position: relative;
+    background-color: rgb(74, 118, 132);
+    color: white;
+    text-align: center;
+}
+header, footer{
+    position: relative;
+    font-family: Arial;
+}
+header{
+    position: relative;
+    padding: 20px;
+}
+main{
+    position: relative;
+    width: 65%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 35%;
+    height: 500px;
+}
+img{
+    border: 1px solid black;
+}
+div#rodzic{
+    display: flow-root;
+}
+footer{
+    position:absolute;
+    width:100%;
+    height: 60px;
+}

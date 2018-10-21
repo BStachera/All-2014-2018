@@ -1,0 +1,234 @@
+/* MAIN STYLE*/
+body {
+    margin: 0px;
+    background-color: white;
+    overflow-y: none !important;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    top: -25px;
+    height: 70px;
+    color: white;
+    box-shadow: 0px 0px 12px 0px black;
+    text-align: center;
+    z-index: 10;
+    transition: all 0.1s;
+}
+
+main {
+    position: relative;
+    top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: calc(100vw - 6vw - 6vw);
+    min-width: 330px;
+    margin-top: -26px;
+    box-shadow: 0 0 11px 0px black;
+    list-style: none;
+    transition: all 0.3s;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(68, 68, 68);
+    top: 68px;
+    height: calc( 8vh + 3px);
+    text-align: center;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: calc(100vw - 6vw - 6vw + 2px);
+    box-shadow: 0 0 11px 0px black;
+    transition: all 0.1s;
+    border: 1 solid color rgb(68, 68, 68);
+    border-radius: 0px 0px 10px 10px;
+    transition: all 0.3s;
+    min-width: 330px;
+}
+
+article {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+/*END MAIN STYLE*/
+/**/
+/*MENU*/
+ul {
+    height: 68px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    border: 1px solid white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 35px 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    transition: all 0.1s;
+}
+#logo {
+    margin-top: 21px;
+    margin-left: 8vw;
+    float: left;
+    width: 66px;
+    height: 66px;
+    background-image: url(grafika/logo.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% - 10px) calc(100% - 10px);
+    background-position: 5px 5px;
+    transition: all 0.3s;
+}
+
+
+/*END MENU*/
+/**/
+/*HOVER*/
+#logo:hover{
+    transform: scale(1.2, 1.2);
+}
+li a:hover:not(.active) {
+    background-color: rgb(68, 68, 68);
+    color: #5CE2BC;
+}
+/*END HOVER*/
+/**/
+/*MAIN PAGE*/
+
+div.baner_body {
+    position: relative;
+    width: calc(100vw - 6vw - 6vw -20px);
+    height: 280px;
+    border-bottom: 5px solid #5CE2BC;
+}
+
+div.baner_background {
+    width: 100%;
+    height: 100%;
+    background-image: url('grafika/baner.jpg');
+    background-color: #111111;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #FFF;
+    filter: opacity(0.7) blur(2px);
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+div.article_main {
+    margin: 15px;
+}
+
+
+div.article_main_header {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+
+span.footercopy{
+    position: relative;
+    top: 7px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 15px;
+    color: #CCCCCC;
+}
+div.register_container{
+    position: relative;
+    width: 310px;
+    height: 300px;
+}
+li input.reg{
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        width: 150px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+        padding: 10px 20px;
+        border: 2px solid #36A886;
+        border-radius: 3px;
+        color: rgba(0,0,0,1);
+        background-color: #fff;
+        float: right;
+        transition: 0.2s all;
+      
+}
+div.article_main_description{
+    font-size: 22px;
+}
+
+/*END*/
+/**/
+/*RESPONSIVE CONTENT*/
+@media screen and (max-width: 850px) {
+    div.baner_body {
+        height: 200px;
+    }
+    header {
+        height: 70px;
+    }
+    ul {
+        height: 68px;
+    }
+    li a {
+        font-size: 18px;
+        padding: 35px 12px
+    }
+    #logo {
+        margin-top: 22px;
+        width: 63px;
+        height: 63px;
+    }
+    main {
+        top: 68px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.baner_body {
+        height: 150px;
+    }
+    header {
+        height: 60px;
+    }
+    ul {
+        height: 58px;
+    }
+    li a {
+        font-size: 14px;
+        padding: 31px 10px;
+    }
+    #logo {
+        margin-top: 22px;
+        width: 50px;
+        height: 50px;
+    }
+    main {
+        top: 58px;
+    }
+    footer{
+        top: 57px;
+    }
+}

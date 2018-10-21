@@ -1,0 +1,1 @@
+x = int(input("podaj liczbe"))y = round(x)i = 1for a in range(x):    if a == 1:        print(" " * y, "#" * i)        y -= 2        i += 2    print(" " * y, "#" * i)    i += 2    y -= 1print(i - 2, "ilosć # na ostatniej linii")input("press enter key to exit")

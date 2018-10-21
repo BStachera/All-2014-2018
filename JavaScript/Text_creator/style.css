@@ -1,0 +1,11 @@
+form{
+    padding:     14px;
+    border:     dotted 2px black;
+    width:      420px;
+    height:     154px;
+}
+input, select{
+    position: absolute;
+    left: 110px;
+
+}

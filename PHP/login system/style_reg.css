@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: "Calibri Light";
+    font-size: 40px;
+}
+body{
+    background-color: white;
+}
+header{
+    color: #000000;
+    background-color: #E8E8E8;
+    width: 100%;
+    max-height: 90px;
+    margin: 10px;
+    padding: 3px;
+    top: -8px;
+    border: 2px solid #7d7d7d;
+}
+article{
+    width:100%;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: #E8E8E8;
+    border: 2px solid #7d7d7d;
+    postion: relative;
+    padding: 2px;
+
+}
+input{
+    font-size: 20px;
+    height: 30px;
+    width: 120px;
+    font-family: "Calibri Light";
+    border-radius: 20px;
+    background-color: #dedede;
+    margin-bottom: 4px;
+    padding: 1px;
+
+}
+input:focus {
+    background-color: #f2f2f2;
+}
+h2{
+    color: #000000;
+    font-family: "Calibri Light";
+    font-size: 22px;
+}
+footer{
+    margin-left:9px;
+    margin-top:2%;
+    color: #000000;
+    font-family: "Calibri Light";
+    font-size: 12px;
+    align-content: center;
+    background-color: #E8E8E8;
+    width: 518px;
+    max-height: 90px;
+    padding: 10px;
+    position: relative;
+    top: -30px;
+    border: 2px solid #7d7d7d;
+
+}
+div {
+    width: 20%;
+    margin-right: 30px;
+
+    
+}
+div.reverse{
+    flex-flow: initial;
+    width:63%; 
+    display: flex;
+}

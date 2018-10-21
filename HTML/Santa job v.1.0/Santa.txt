@@ -1,0 +1,35 @@
+---------------Dziękujemy za zamówienie ------------------ 
+Imię : Barbara   nazwisko :Grucharczyk
+nr.telefonu :  568993912
+Miasto:  1  Cena w mieście:  120 zł
+
+Ulica zamieszkaniaŻeromskiego 34/b
+Liczba dzieci5
+Data zamówienie : Friday 28th of April 2017 07:39:37 AM
+-----------------------------------------------------------
+---------------Dziękujemy za zamówienie ------------------ \n 
+Imię : Weronika    nazwisko :Kotkowska
+nr.telefonu :  696969696
+Miasto:  2  Cena w mieście:  90 zł
+
+Ulica zamieszkaniaGruchaczy3
+Liczba dzieci6
+Data zamówienie : Sunday 30th of April 2017 05:44:23 PM
+-----------------------------------------------------------
+---------------Dziękujemy za zamówienie ------------------ \n 
+Imię : Martyna   nazwisko :Baranowicz
+nr.telefonu :  580988777
+Miasto:  5  Cena w mieście:  1
+Ulica zamieszkaniaul.kamienna 3a
+Liczba dzieci6
+Data zamówienie : Sunday 1st of October 2017 12:27:03 PM
+-----------------------------------------------------------
+---------------Dziękujemy za zamówienie ------------------ \n 
+Imię : sadfgsdg   nazwisko :sgdds
+nr.telefonu :  4534534
+Miasto:  4  Cena w mieście:  60 zł
+
+Ulica zamieszkania43lkj13
+Liczba dzieci6
+Data zamówienie : Wednesday 8th of November 2017 10:08:20 AM
+-----------------------------------------------------------

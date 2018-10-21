@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT COUNT(id) AS ilosc FROM sportowiec;
+Zapytanie 2: SELECT id, imie, nazwisko FROM sportowiec WHERE id=1;
+Zapytanie 3: SELECT sportowiec_id AS Sportowiec, SUM(wynik)/COUNT(sportowiec_id) AS `sredni wynik` FROM wyniki WHERE sportowiec_id=1 AND dyscyplina_id= 3;
+Zapytanie 4: SELECT MAX(wynik) AS `Najlepszy wynik` FROM wyniki WHERE dyscyplina_id = 3;

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twórca tekstu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <form> 
+        tekst       <input type="text" id="txt" ><br><br>
+        Wielkosc    <input type="number" id="size" ><br><br>
+        Kolor       <input type="text" id="clr" ><br><br>
+        Czcionka    <select id="font">
+                        <option value='1'>Arial</option>
+                        <option value='2'>Verdana</option>
+                        <option value='3'>Calibri</option>
+                        <option value='4'>Comic Sans</option>
+                    </select><br><br>
+
+        <input type="button" onclick="start()" value="Click"><br>
+    </form>
+
+    <script src="script.js"></script>
+
+    <div id="show"> </div>
+</body>
+</html>

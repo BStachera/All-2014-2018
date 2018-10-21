@@ -1,0 +1,1 @@
+SELECT nazwisko, imie FROM pacjenci ORDER BY nazwisko ASC;
