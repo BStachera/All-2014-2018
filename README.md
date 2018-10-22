@@ -1,5 +1,6 @@
 # All-2014-2018
 Tutaj znajdziesz moje wszystkie projekty/programy które kiedykolwiek napisałem i które przetwały.
+HTML / JS / CSS / SQL / C ++ / Python
 
 Jest tutaj troche (PHP\SQL) skrypów które nie działają ponieważ baza danych zniknęła w natłoku plików z tych lat.
 
