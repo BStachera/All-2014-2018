@@ -10,8 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-        <script type="text/javascript" src="scripts/chatmsg.js"></script> 
-        <script type="text/javascript" src="scripts/script.js"></script>  
+        <script type="text/javascript" src="scripts/script.js"></script>    
     <div class="playground">  
         <header>
             <ul class="infobar">
@@ -25,29 +24,30 @@
         </header>
         <main>
             <ul class="magnebar">
-                <li class="clickmag" id="magnets" onclick="mag_click()"></li>
+                <li class="clickmag" id="magnets" onclick="magclick()"></li>
                 <li>
-                    <img src="images/magnet/1.gif">
-                    <span id="magne_text" > Hello I’m Magnetio I really what to be the most powerfull Magnet in the universe can you help me?</span>
+                    <img src="images/magnet/1.png" id="magnetio">
+                    <span id="chat" ></span>
                     <img src="images/pyt.png" class="dymek">
                     <ul style="width: 60px; position: relative; float: right; top: 22px">
-                        <li><img src="images/plus.png"></li>
-                        <li><img src="images/minus.png" style=></li>
+                        <li><img src="images/plus.png" onclick="chatinfo(1)"></li>
+                        <li><img src="images/minus.png" onclick="chatinfo(0)"></li>
                     </ul>
                 </li>
             </ul>
         </main>
         <article>
             <ul class="item">
-                <script> table_create(); </script>           
+                <script>table_create()</script>           
             </ul>     
         </article>
         <footer>
             <div>
             <img src="images/power.png">
-            <span id="energy_cnt">0</span>
+            <span id="energy_cnt">10</span>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="scripts/chat.js"></script>   
 </body>
 </html>
