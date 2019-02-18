@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+</head>
+<body lang=PL>
+	<span style="display: block;font-family: Calibri;font-style: italic;font-size: 11pt;margin-bottom: 8px;">&nbsp; Pozdrawiam/Best regards/Mit freundlichen Grüßen</span>
+	<div style="position: absolute;	left: 8px;padding-left: 16px;padding-right:16px;width:60vw;max-width:600px;min-width: 425px;background-image:url(Stopka_pliki/image003.png);background-repeat: repeat-x; background-position: left top;background-size: auto 14px;">
+		<table style="postion: relative;top: 6px;width:100%;">
+		<tbody>
+			<tr>
+				<td width="20%" height="40px"><img src="Stopka_pliki/image001.png" style="position: relative;top: 1px;height: 100%;"></td>
+				<td width="40%" height="40px"><img src="Stopka_pliki/image002.png" style="position:relative; top: 3px;left: 2%;"></td>
+				<td width="40%" height="40px"><div style="position:relative;top: 3px;font-family: Sitka Display;font-size: 11pt;text-align: right;">Dr. Oetker Polska Sp. z o.o</div></td>
+			</tr>
+			</tbody>
+		</table>
+		<table style="position: relative;top: -17px;width: 100%;height: 90px;">
+		<tbody>
+			<tr>
+				<td width="37%">
+					<ul style="border-right: 1px solid #e4e4e4;padding-left: 0px;list-style-type: none;position: relative;font-family: Sitka Display;font-size: 12pt;text-align: left;display: block;">
+						<li><strong>Bartłomiej Stachera</strong></li>
+						<li>Junior IT</li>
+					</ul>
+				</td>
+				<td width="63%">
+					<ul style="padding-left: 0px;list-style-type: none;text-align: right;font-family: Calibri;font-size: 11pt;">
+						<li>E-Mail:<a href="mailto:Bartlomiej.Stachera@oetker.pl" target="_top"> Bartlomiej.Stachera@oetker.pl</a></li>
+						<li>Tel. Wewnętrzny:&nbsp;&nbsp;<a href="tel+48585119181">+48 585 119 181</a></li>
+						<li>Tel. Służbowy:&nbsp;&nbsp;<a href="tel:+48888888888">+48 888 888 888</a></li>
+					</ul>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		<div style="font-family: Calibri;font-size: 9pt;position: relative;top: -23px;color: #8a8680;padding-bottom: 9px;border-bottom: 1px solid #e4e4e4;">
+		Bank: mBank S.A. 29114010650000287107001001, NIP: 584-020-15-71, 
+		Sąd Rejonowy Gdańsk-Północ w Gdańsku VII Wydział Gospodarczy KRS nr 0000005349. 
+		Wysokość kapitału zakładowego 353 075 749,58 zł
+		</div>
+		<div style="width: 100%;position: relative;top: -20px;color: #33c324;font-size: 9pt;font-family: Calibri;font-style: italic;text-align: center;">Chroń środowisko razem z nami - jeśli nie musisz, nie drukuj tej wiadomości.</div>
+	</div>
+</body>
+</html>
